@@ -1,0 +1,19 @@
+{
+    "name": "@jedrzejczak/example-npm-package",
+    "version": "1.0.0",
+    "description": "Example npm package",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jedrzejczak/example-npm-package.git"
+    },
+    "keywords": [
+        "example"
+    ],
+    "author": "AJ",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jedrzejczak/example-npm-package/issues"
+    },
+    "homepage": "https://github.com/jedrzejczak/example-npm-package#readme"
+}
