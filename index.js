@@ -11,3 +11,7 @@ var jokes = [
 exports.giveMeAJoke = function() {
     return jokes[Math.floor(Math.random() * jokes.length)];
 };
+
+exports.giveMeARandomNumber = function() {
+    return Math.random();
+};
