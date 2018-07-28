@@ -12,6 +12,6 @@ exports.giveMeAJoke = function() {
     return jokes[Math.floor(Math.random() * jokes.length)];
 };
 
-exports.giveMeARandomNumber = function() {
-    return Math.random();
+exports.giveMeARandomInteger = function() {
+    return Math.round(Math.random() * 100);
 };
